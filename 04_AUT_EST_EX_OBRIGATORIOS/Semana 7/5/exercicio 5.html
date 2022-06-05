@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <body>
+            <meta charset="8"/>
+            <script src="script.js"></script>
+            <h1> Exercício 5</h1>
+            <h3> Crie uma página web na qual o usuário informe a quantidade de alunos e a nota de cada aluno na prova e no trabalho. Quando o usuário finalizar o fornecimento de todas as informações e solicitar o cálculo, mostre:
+                - a média de cada aluno, calculada considerando peso 2 para a prova e 3 para o trabalho;
+                - a média geral, considerando todos os alunos;
+                - a média artiméticas das notas de prova;
+                - a média artiméticas das notas de trabalho;
+                - a menor e a maior notas de prova;
+                - a menor e a maior notas de trabalho. Obs: note que a quantidade de campos para inserção das notas de cada aluno depende da quantidade de alunos informada. </h3>
+                <br/>
+                <input type="Number" id="qtdAlunos"/>
+                <h3> Quantidade de Alunos</h3>
+                <h4 id="Alunos"></h4>
+                <p> Insira a Nota dos Alunos da Prova: (utilize uma lista separada por vírgula)</p>
+                <input type="text" id="notaProva"/>
+                <p> Inisira a Nota dos Alunos no Trabalho: (utilize uma lista separada por vírgula)</p>
+                <input type="Text" id="notasTrabalho"/>
+                <input type="button" id="notaFinal" value="Calcular Notas" onclick="Calcular()"/>
+            <form>
+            </form>
+        </body>
+    </head>
+</html>
